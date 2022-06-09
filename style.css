@@ -2,28 +2,39 @@ body {
     font-family: 'Poppins';
 }
 
+/*- Changing Font style--*/
 h1 {
     font-size: 350%;
 }
 
+/*-Changing font size--*/
 .Orange-Color {
     color: orange;
 }
 
+/*- Making the text "Pronob's" Orange --*/
 .half-width {
     width: 50%;
     padding-left: 5%;
     margin: 30px 30px;
 }
 
+/*- adjusting text and image allignment--*/
 .half-width img {
     width: 85%;
 }
+
+/*- It's adjusting the width of the image of the half width class--*/
 
 section {
     display: flex;
 }
 
+/*-arranging elements under the section tag flexibly--*/
 .link-button {
     text-decoration: none;
+    background-image: linear-gradient(rgb(39, 226, 255), rgb(0, 30, 255));
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: aliceblue;
 }
