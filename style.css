@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins';
+    margin: 0;
 }
 
 /*- Changing Font style--*/
@@ -25,10 +26,12 @@ h1 {
 }
 
 /*- It's adjusting the width of the image of the half width class--*/
-
-section {
+.flexible-containner {
     display: flex;
+    margin-bottom: 5%;
+
 }
+
 
 /*-arranging elements under the section tag flexibly--*/
 .link-button {
@@ -37,4 +40,24 @@ section {
     padding: 5px 10px;
     border-radius: 5px;
     color: aliceblue;
+}
+
+.first-sec {
+    background-image: url(/developer-portfolio-master/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+#blue {
+    color: rgb(0, 30, 255);
+}
+
+.second-sec {
+    background-image: url(/developer-portfolio-master/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.left {
+    padding-right: 18%;
+    text-align: justify;
 }
