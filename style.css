@@ -5,7 +5,11 @@ body {
 
 /*- Changing Font style--*/
 h1 {
-    font-size: 350%;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 35px;
 }
 
 /*-Changing font size--*/
@@ -47,7 +51,7 @@ h1 {
     background-repeat: no-repeat;
 }
 
-#blue {
+.blue {
     color: rgb(0, 30, 255);
 }
 
@@ -60,4 +64,39 @@ h1 {
 .left {
     padding-right: 18%;
     text-align: justify;
+}
+
+.experience-area {
+    box-shadow: 15px 15px 15px 10px rgb(190, 246, 255);
+    border-radius: 10px;
+}
+
+.sky-blue {
+    color: rgb(0, 202, 233);
+}
+
+.Third-sec {
+    background-image: url(/developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.ex {
+    text-align: center;
+}
+
+#baby {
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(6, 197, 255), rgb(0, 30, 255));
+    border-image-slice: 1;
+}
+
+#full {
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(255, 137, 117), rgb(255, 25, 0));
+    border-image-slice: 1;
+}
+
+p {
+    font-weight: 500;
 }
